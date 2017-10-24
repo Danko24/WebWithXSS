@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Admin panel</title>
-		<link rel="stylesheet" type="text/css" href="panel.css">
+		<link rel="stylesheet" type="text/css" href="https://github.com/Danko24/WebWithXSS/blob/Adminpanel/panel.css">
 		<?php
 			if ($_POST["username"] != "Danko24real") {
 				header('Location: login.html'); 

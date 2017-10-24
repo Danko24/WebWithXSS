@@ -5,7 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="panel.css">
 		<?php
 			if ($_POST["username"] != "Danko24real") {
-				
+				header('Location: login.html'); 
+				exit();
 			};
 		?>
 	</head>

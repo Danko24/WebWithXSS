@@ -4,10 +4,13 @@
 		<title>Admin panel</title>
 		<link rel="stylesheet" type="text/css" href="https://github.com/Danko24/WebWithXSS/blob/Adminpanel/panel.css">
 		<?php
-			if ($_POST["username"] != "Danko24real") {
+			if ($_POST["username"] != "Danko24real" && $_POST["pass"] != "r00T") {
 				header('Location: login.html'); 
-				exit();
-			};
+				die();
+			}
+			else {
+				echo All set!
+			}
 		?>
 	</head>
 	<body>
